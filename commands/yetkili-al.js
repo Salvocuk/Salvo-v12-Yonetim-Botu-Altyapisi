@@ -14,15 +14,29 @@ let member = message.guild.member(salvouye)
 
 
 //KADEMELER
-member.roles.remove("ALINACAK ROL İD"); //3. Yetkili Kademesi
-member.roles.remove("ALINACAK ROL İD"); //2. Yetkili Kademesi
-member.roles.remove("ALINACAK ROL İD");   //1. Yetkili Kademesi
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("ALINACAK ROL İD");
+member.roles.remove("806603929504841728"); //3. Yetkili Kademesi
+member.roles.remove("806603930624720936"); //2. Yetkili Kademesi
+member.roles.remove("806603931706458143");   //1. Yetkili Kademesi
 
 
 //YETKİLER
-member.roles.remove("ALINACAK ROL İD"); //3. Yetki
-member.roles.remove("ALINACAK ROL İD"); //2. Yetki
-member.roles.remove("ALINACAK ROL İD");   //1. Yetki
+member.roles.remove("806603941222940724"); 
+member.roles.remove("806779166888296478"); 
+member.roles.remove("806603939993616442"); //3. Yetki
+member.roles.remove("806603938479865866"); //2. Yetki
+member.roles.remove("806603937423425619");   //1. Yetki
 
 
 let yetkialinmatarihi = moment(message.createdAt).format("LLLL")
